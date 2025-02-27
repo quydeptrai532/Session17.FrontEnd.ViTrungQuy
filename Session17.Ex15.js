@@ -1,0 +1,7 @@
+let bankinh=parseFloat(prompt("Mời bạn nhập vào bán kính hình cầu"))
+let thetich=(4/3*Math.PI*Math.pow(bankinh,3))
+document.write(`Thể tích hình cầu là ${thetich} <br>`)
+let dientichbemat=(4*Math.PI*Math.pow(bankinh,2))
+document.write(`Diện tích bề mặt của hình cầu là ${dientichbemat} <br>`)
+let maxchuvi=(2*Math.PI*bankinh)
+document.write(`Chu vi lớn nhất của hình cầu là ${maxchuvi} `)
